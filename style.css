@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  height: auto;
+  background: #123456;
+}
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  background-color: #000;
+
+}
+#header {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  background: #000;
+  margin-bottom: 2rem;
+  width: 360px;
+  display: flex;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 90px;
+  cursor: pointer;
+}
+.ge {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.image {
+  margin-right: 90px;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5rem;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-align: left;
+  margin-right: 140px;
+}
+button {
+  text-align: left;
+  background: rgb(58, 57, 57);
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  width: 100%;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.edit {
+  width: 100%;
+  text-align: center;
+}
+
+.best {
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-left: 10px;
+}
+#po {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.pictur {
+  width: 110px;
+  height: 90px;
+  cursor: pointer;
+  transition: all 2s ease;
+
+}
+.pictur:hover {
+  opacity: 0.6;
+}
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.build {
+  border-top: 0.5px solid gray;
+  margin-bottom: 3.5rem;
+}
+.icon_lists {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background: black;
+  width: 360px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+footer i {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
